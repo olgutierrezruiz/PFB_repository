@@ -1,0 +1,11 @@
+>seqName description
+ATGGCGTCTTGGCCTTAAAAGCTC
+GGCGTCTTGGCCTTAAAAGCTCAT
+ATTCTTGGCCTTAAATTGGCCTTG
+aaaaaaaaaaaaaaaaaaaaaaaaa
+ttttttttttttttttttttttt
+CCCCCCCCCCCCCCCC
+GGGGGGGGGGGGGGGGGGGG
+aaaaaaaaaaaaaaaaaaaaaaaaa
+ttttttttttttttttttttttt
+CCCCCCCCCCCCCCC
