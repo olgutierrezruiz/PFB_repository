@@ -35,10 +35,50 @@ nt_count = {}
 seq = ('GAACTCCAAAAATGAAAACATAGTAGCAATCAAAGCATCCCACTATTTTTTGTCTCTCGTTTCATTAGCGTTGTAA    ATTACTGATACCCTACTATACCTCTACAAGGCCTTTGTCATCTTTTTACTCAAGTGTGAAATCATCACTTATTGTATGAAGGATGAG    CTTTCCGTTCGCTAGTTTGCTGAAAAGGCCTTCTGCAATAAGCTCTCTATTATCTTTAAAAAAACCTGGTTCCTGGTCTTCCATTCT    GCTAAAAGCTGTAGGGGTTTTATCACGAGATTCCCGTTGGCATTCTGACTTATTAAAAATGCTTACAGAAGAAATGGATTCTTTAAA    TGGTCAAATTAATACGTGGACAGATAATAATCCTTTATTAGATGAAATTACGAAGCCATACAGAAAATCTTCAACTCGTTTTTTTCA    TCCGCTTCTTGTACTTCTAATGTCTAGAGCATCAGTAAATGGGGATCCACCGAGTCAGCAACTATTTCAAAGGTACAAACAACTTGC    CCGTGTAACAGAATTGATTCATGCTGCCAATATAATTCATATTAATATTGGAGAAGAACAAAGCAACGAACAGATTAAACTTGCAAC    GTTGGTTGGAGATTATTTACTCGGAAAGGCGTCTGTTGATTTAGCACATTTAGAAAACAACGCTATTACAGAAATTATGGCTTCTGT    TATTGCAAACTTAGTTGAAGGGCACTTCGGAAGCCGACAAAATGGCTCTGTTGGTTTGTCAAACGAACGAACCATCCTTCTGCAATC    AGCCTTTATGCCAGCAAAGGCATGTTTATGCGCAAGCATATTGAATAACTCATCACAATACATTAATGATGCGTGTTTCAATTATGG    AAAATTTCTAGGCTTATCGCTGCAACTGGCCCATAAGCCTGTATCTCCTGACGCCCAAGTTTTGCAAAAGAATAATGACATTTTGAA    AACATATGTTGAGAATGCCAAGAGCTCATTGTCTGTTTTCCCCGATATAGAGGCTAAGCAAGCTCTCATGGAAATCGCTAATAGTGT    TTCGAAGTAATCGACAGGTATTGTATCCTGGATTAATATTAGGGTGGCTCATGCATGCTCGTGCAATCGTAACAAATATGTCTTTCT    TTTACGAATTTTAACGCTTCAATATAAATCATATTTTTCCTCA')
 
 seq = seq.replace(" ","")
-unique = set(seq)										#makes seq a set and assigns it to unique_nt
+unique = set(seq)										#makes seq a set and assigns it to unique
 print('unique nt: ', unique)				
 
-for nt in unique:
-	count = seq.count(nt) 
-	nt_count[nt]= count
+for nt in unique:										# for loop
+	count = seq.count(nt) 						# Counts nt in seq and assigns them to count
+	nt_count[nt]= count								# Assigns the value for the key in the nt_count dic																			tionar. So, it assigns the number of each nt as
+																	  # value 
+
+print('nt count: ', nt_count)
+
+#Question 4 bullet point 
+nt_comp = {}
+nt_comp['A'] = 360
+nt_comp['T'] = 370
+nt_comp['G'] = 206
+nt_comp['C'] = 227
+
+GC_content = ((nt_count['G'] + nt_count['C']) * 100) / (nt_count['G'] + nt_count['C'] + nt_count['T'] + nt_count['A'])
+print('GC content: ', GC_content,'%') 		#This way extracts the values from the																									nt_count library
+
+GC_comp = (nt_comp['G'] + nt_comp['C']) * 100 / (nt_comp['G'] + nt_comp['C']  + nt_comp['A'] + nt_comp['T'])			#This way extracts the values from the																								newly made nt_comp library
+
+
+#Question 5
+	#Exit python and in the terminal (zsh) download the Python_06.txt file from github by
+
+#	curl -O https://raw.githubusercontent.com/prog4biol/pfb2022/master/files/Python_06.txt
+
+#	this will download it inot the folder where you are in the terminal so move to the folder where you want the file to be downloaded before downloading it
+
+lyr = open('/Users/student/PFB_repository/Python_06.txt','r')
+
+with open('/Users/student/PFB_repository/Python_06.txt','r') as lyr:
+	lyr_content = lyr.read()
+	print(lyr_content)
+
+with open('/Users/student/PFB_repository/Python_06.txt','w') as lyr_w:
+	lyr_w.write(lyr_content.upper())
+
+
+#Question 6
+with open('/Users/student/PFB_repository/Python_06.txt','r') as lyr_r, open('Python_06_uc.txt','w') as lyr_new:
+	
+	lyr_content = lyr_r.read()
+	lyr_new.write(lyr_content.upper())
+
 
