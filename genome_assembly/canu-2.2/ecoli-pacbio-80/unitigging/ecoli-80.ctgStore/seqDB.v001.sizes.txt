@@ -1,0 +1,15 @@
+lenUnassembled sum     257840 (genomeSize 4800000)
+lenUnassembled num         21
+lenUnassembled ave      12278
+lenContig ng10      994770 bp   lg10       1   sum     994770 bp
+lenContig ng20      994770 bp   lg20       1   sum     994770 bp
+lenContig ng30      790107 bp   lg30       2   sum    1784877 bp
+lenContig ng40      628492 bp   lg40       3   sum    2413369 bp
+lenContig ng50      628492 bp   lg50       3   sum    2413369 bp
+lenContig ng60      504483 bp   lg60       4   sum    2917852 bp
+lenContig ng70      470573 bp   lg70       5   sum    3388425 bp
+lenContig ng80      299033 bp   lg80       7   sum    4059503 bp
+lenContig ng90      264052 bp   lg90       8   sum    4323555 bp
+lenContig sum    4668355 (genomeSize 4800000)
+lenContig num         11
+lenContig ave     424395

@@ -1,0 +1,52 @@
+
+== Finding Potential Orphans ==
+
+tig        1 length    994770 nReads     211/   1698 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+tig        2 length    790107 nReads     166/   1322 -   3 regions covering   0.44 uncovered 104920/193034/376497 -- ends uncovered: is not orphan
+tig        3 length    628492 nReads     131/   1102 -   4 regions covering   0.84 uncovered 114166/186373/289581 -- ends uncovered: is not orphan
+tig        4 length    611890 nReads     129/   1046 -   6 regions covering   2.59 uncovered 141290/175934/12254 -- ends uncovered: is not orphan
+tig        5 length    504483 nReads     105/    963 -   3 regions covering   0.53 uncovered 18952/122396/301557 -- ends uncovered: is not orphan
+tig        6 length    372045 nReads      78/    625 -   2 regions covering   0.70 uncovered 221827/ 95517/52099 -- ends uncovered: is not orphan
+tig        7 length    299033 nReads      72/    516 -   2 regions covering   1.97 uncovered 246992/ 45117/ 1032 -- ends uncovered: is not orphan
+tig        8 length    186243 nReads      25/    264 -   2 regions covering  13.26 uncovered 125513/ 36041/    0 -- ends uncovered: is not orphan
+tig        9 length    264052 nReads      54/    463 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+tig       10 length     14082 nReads       5/     20 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+
+== Found 0 Potential Orphans ==
+
+
+== Finding Read Placements for Potential Orphans ==
+
+
+== Found 0 placements for 0 reads. ==
+         2024 reads not placed: not in a tig
+         7043 reads not placed: contained
+        10042 reads not placed: not in an orhpan
+
+
+
+== Finding Potential Bubbles ==
+
+tig        1 length    994770 nReads     211/   1698 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+tig        2 length    790107 nReads     166/   1322 -   3 regions covering   0.44 uncovered 104920/193034/376497 -- ends uncovered: is not orphan
+tig        3 length    628492 nReads     131/   1102 -   4 regions covering   0.84 uncovered 114166/186373/289581 -- ends uncovered: is not orphan
+tig        4 length    611890 nReads     129/   1046 -   6 regions covering   2.59 uncovered 141290/175934/12254 -- ends uncovered: is not orphan
+tig        5 length    504483 nReads     105/    963 -   3 regions covering   0.53 uncovered 18952/122396/301557 -- ends uncovered: is not orphan
+tig        6 length    372045 nReads      78/    625 -   2 regions covering   0.70 uncovered 221827/ 95517/52099 -- ends uncovered: is not orphan
+tig        7 length    299033 nReads      72/    516 -   2 regions covering   2.32 uncovered 246992/ 45117/    0 -- ends uncovered: is not orphan
+tig        8 length    186243 nReads      25/    264 -   2 regions covering  13.26 uncovered 125513/ 36041/    0 -- ends uncovered: is not orphan
+tig        9 length    264052 nReads      54/    463 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+tig       10 length     14082 nReads       5/     20 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+
+== Found 0 Potential Orphans ==
+
+
+== Finding Read Placements for Potential Orphans ==
+
+
+== Found 0 placements for 0 reads. ==
+         2024 reads not placed: not in a tig
+         7043 reads not placed: contained
+        10042 reads not placed: not in an orhpan
+
+

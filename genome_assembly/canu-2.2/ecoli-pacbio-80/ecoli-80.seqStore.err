@@ -1,0 +1,31 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 18, subversion 4 (v5.18.4) built for darwin-thread-multi-2level
+
+Found java:
+   /Users/student/miniconda/bin/java
+   openjdk version "11.0.13" 2021-10-19
+
+Found canu:
+   /Users/student/genome_assembly/canu-2.2/bin/canu
+   canu 2.2
+
+
+Creating library 'ecoli_pacbio_80' for PacBio raw reads.
+
+               reads               bases
+---------- --------- ------ ------------ ------
+Loaded         10043  95.7%     93342989  99.7%  /Users/student/genome_assembly/canu-2.2/ecoli_pacbio_80.fastq
+Short            456   4.3%       267064   0.3%
+
+
+All reads processed.
+
+               reads               bases
+---------- --------- ------ ------------ ------
+Loaded         10043  95.7%     93342989  99.7%
+Short            456   4.3%       267064   0.3%
+
+
+Bye.
